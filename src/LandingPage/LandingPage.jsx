@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import HeroSection from "../components/HeroSection/HeroSection";
 import OurTeam from "../components/OurTeam/OurTeam";
 import OurServices from "../components/OurServices/OurServices";
+import OurPortfolio from "../components/OurPortfolio/OurPortfolio";
 const LandingPage = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <HeroSection />
       <OurTeam />
       <OurServices />
+      <OurPortfolio />
     </div>
   );
 };
