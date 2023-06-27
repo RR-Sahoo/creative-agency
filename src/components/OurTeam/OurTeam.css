@@ -1,0 +1,111 @@
+.our-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0 4.37rem;
+  margin-top: 9.38rem;
+}
+.our-team-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+.our-team-header > h4 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-family: var(--Quicksand);
+  font-weight: 600;
+}
+.our-team-header > h2 {
+  color: var(--black-color);
+  font-size: 3.4375rem;
+  font-family: var(--Nunito);
+  font-weight: 700;
+}
+.our-team-content {
+  display: flex;
+  align-items: center;
+  gap: 1.73rem;
+}
+.content-left > img {
+  max-width: 39.52431rem;
+}
+.content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.content-right > p {
+  color: var(--grey-color);
+  font-size: 1.25rem;
+  font-family: var(--Quicksand);
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  max-width: 38.125rem;
+}
+.content-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.56rem;
+}
+.content-buttons > button {
+  border-radius: 24px;
+  padding: 0.75rem 3.125rem;
+  font-size: 1rem;
+  font-family: var(--Quicksand);
+  font-weight: 700;
+}
+.content-buttons > button:nth-of-type(1) {
+  background: #377dff;
+  box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.5);
+  border: none;
+  color: #fff;
+}
+.content-buttons > button:nth-of-type(2) {
+  border: 1px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+}
+
+@media (max-width: 768px) {
+  .our-team {
+    margin-top: 5.83rem;
+    gap: 2.19rem;
+    padding: 0 1.56rem;
+  }
+  .our-team-header {
+    gap: 0.62rem;
+  }
+  .our-team-header > h4 {
+    font-size: 0.875rem;
+  }
+  .our-team-header > h2 {
+    font-size: 1.5rem;
+  }
+  .our-team-content {
+    flex-direction: column-reverse;
+    gap: 3.12rem;
+  }
+  .content-right > p {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.00875rem;
+  }
+  .content-left > img {
+    width: 21.25rem;
+  }
+  .content-buttons > button {
+    padding: 0.625rem 2.1875rem;
+    font-size: 0.75rem;
+  }
+  .content-buttons > button:nth-of-type(2) > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
